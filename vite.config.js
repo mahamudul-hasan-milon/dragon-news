@@ -4,5 +4,13 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "serif"],
+      },
+    },
+  },
+
   plugins: [react(), tailwindcss()],
 });

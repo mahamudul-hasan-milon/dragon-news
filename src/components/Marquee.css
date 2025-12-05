@@ -6,9 +6,9 @@
     100% {
         transform: translateX(-100%);
     }
+    
 }
 
 .animate-marquee {
-    display: inline-block;
-    animation: marquee 15s linear infinite;
+    animation: marquee 60s linear infinite;
 }
